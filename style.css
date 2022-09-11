@@ -60,7 +60,7 @@
     {
       font-size: 30px;
       position: absolute;
-      left: 300px;
+      left: 350px;
     }
   
   /*setup link decoration*/
@@ -88,25 +88,46 @@
    }
 
    .square{
-     margin: auto;
      position: relative;
-     top: 40px;
+     margin: auto;
+     top: 10px;
+     left: 40%;
      width: 400px;
      height: 70px;
      background-color: black;
      border-radius: 10px ;
      opacity: 0.5;
-
+     color: red;
+     font-family: 'SF Wonder Comic Blotch', sans-serif;
+     font-size: 40px;
+     text-align: center;
    }
+     .letter{
+      position: relative;
+      top: 100px;
+      left: 700px;
+      width: 80px;
+      height: 80px;
+      background-color: black;
+      border-radius: 10px ;
+      opacity: 0.5;
+      color: red;
+      font-family: 'SF Wonder Comic Blotch', sans-serif;
+      font-size: 40px;
+      text-align: center;
+     }
+   
 
    .question{
     margin: auto;
     position: relative;
     top: 50px;  
-    width: 700px;
-    height:250px;
+    width: 680px;
+    height:20 0px;
     background: rgb(43, 80, 67);
     border-radius:10px;
+    text-align: center;
+    font-size: 40px;
    }
 
    .giveup{
@@ -116,7 +137,7 @@
     margin:auto;  
     width: 220px;
     height: 45px;
-     bottom: -350px;
+     bottom: -200px;
     font-size: 30px;
     background-color: rgb(43, 80, 67);
     border-radius: 20px;
